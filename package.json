@@ -38,20 +38,20 @@
     "extends": "./.github/linters/.eslintrc.yml"
   },
   "dependencies": {
-    "@actions/core": "^1.11.1",
+    "@actions/core": "^3.0.0",
     "eslint-plugin-import": "^2.32.0",
     "ndjson-cli": "^0.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.3",
-    "@babel/eslint-parser": "^7.28.0",
-    "@babel/preset-env": "^7.28.3",
-    "@vercel/ncc": "^0.38.3",
-    "eslint": "^9.34.0",
+    "@babel/core": "^7.29.0",
+    "@babel/eslint-parser": "^7.28.6",
+    "@babel/preset-env": "^7.29.0",
+    "@vercel/ncc": "^0.38.4",
+    "eslint": "^10.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-prettier": "^5.5.5",
     "make-coverage-badge": "^1.2.0",
-    "prettier": "^3.6.2"
+    "prettier": "^3.8.1"
   },
   "packageManager": "yarn@3.6.4"
 }
